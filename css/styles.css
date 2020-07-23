@@ -1,0 +1,109 @@
+/* Reset */
+*{
+	margin:0;
+	padding:0;
+}
+
+/* General Styling */
+body{
+	color:#fcfcfc;
+	background:#ccc;
+}
+
+a{
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+/* Custom Styling */
+.container{
+	width:75%;
+	margin:10px auto;
+	overflow:auto;
+	max-width: initial !important;
+}
+
+/* Nav Styling */
+#navbar{
+	display:block;
+	height:40px;
+	background:#0e8432;
+	border-radius: 5px;
+	
+}
+
+#navbar a{
+	color:#fff;
+	display:inline-block;
+	height:40px;
+	line-height:37px;
+	padding:0 15px;
+	background: #0e8432;
+}
+
+#navbar a.active, #navbar a:hover{
+	background:#16d069;
+	text-decoration:none;
+	
+}
+#navbar a:first-of-type:active, #navbar a:first-of-type:hover, #navbar a:first-of-type:focus, #navbar a:first-of-type:link{
+	
+	border-radius: 5px 0 0 5px !important;
+	
+	}
+/* Content Styling */
+#main{
+	display:block;
+	overflow:visible;
+	width:100%;
+	margin: 0 auto;
+	min-height:588px;
+}
+
+#main li{
+	flex:1;
+	float:left;
+	height:196px;
+	list-style:none;
+	margin:6px;
+	position:relative;
+	width:180px;
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;
+}
+#main li img{
+	max-width:100%;
+}
+
+#main ul{
+	overflow:hidden;
+}
+
+#main ul.hidden{
+	display:none;
+}
+@media only screen and (min-width: 0px) and (max-width: 576px){
+	
+	.container{
+	width:90%;
+	
+}
+	
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 992px){
+	
+	#main{
+	
+	min-height:1048px;
+	overflow: visible;
+}
+.container{
+	width:90%;
+	
+}
+	
+}

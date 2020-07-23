@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="twitter:widgets:border-color" content="#ffeb3b">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="description" content="T-Shirts-to-the-Max is a five-year-old online UK firm specializing in personalised t-shirts. We are a growing forward-thinking company and are passionate about ensuring that we deliver the best possible service.">
+<meta name="keywords" content="T-shirts, Clothing, Design, Modern, UK, Printing, online, colourful, stag doos, hen nights, birthdays, corporate weekends, charity events, fancy dress">
+
+<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script>window.html5 || document.write(\'<script src="js/html5shiv.min.js"><\/script>\')</script>
+	<![endif]-->
+  
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/site.webmanifest">
+<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!--Links to Google fonts-->
+ <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/fontawsome/css/all.min.css">
+  
+   <link rel="stylesheet" href="css/styles1.css">
+  
+ <title>T-Shirts To The Max!</title>
+  </head>
+ <body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top main-menu" id="mynav">
+ <!-- <a class="navbar-brand" href="#">Navbar</a>-->
+  
+  <a href="index.html"><img src="images/logo.png" class="navimg" width="57" alt="logo"></a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto navpad">    
+   
+        
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html" data-target=".navbar-collapse.show"><i class="fas fa-home"></i> Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="gallery.html" data-target=".navbar-collapse.show"><i class="fas fa-home"></i> Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services" data-target=".navbar-collapse.show"><i class="fas fa-sign-in-alt"></i> Log in</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact" data-target=".navbar-collapse.show"><i class="fas fa-user-plus"></i> Register</a>
+      </li>
+       <li class="nav-item">  
+        <a class="nav-link btn-purchase" href="#contact" id="cart1" data-target=".navbar-collapse.show"><i class="fas fa-shopping-cart"></i> Cart <span class="cart-total-price shop-item-price" id="cart2">£0 </span></a>
+      </li>
+    </ul>
+  </div>
+</nav>  
+       
+    <div class="jumbotron m-4 text-center"><img src="images/logo.png" class="logo" alt="logo">
+  <div><h1><span class="head-main font-weight-bolder h2">Customise Your T-Shirt With</span><br><span class="head-main font-weight-bolder h1">T-Shirts-to-the-Max!</span></h1></div>
+  <h2 class="blank font-weight-bolder">Your T-shirt is a Blank Canvas</h2>
+   
+  <button type="button" onclick="location.href='upload-img.html'" class="btn btn-outline-success uploadbtn mt-4 btn-lg bg-white text-dark">Upload Your T-Shirt Design Here!</button>
+</div>
+
+ <div class="s-media">
+    <a href="#" class="s-item facebook">
+    	<i class="fab fa-facebook"></i>
+    </a>
+    
+    <a href="#" class="s-item twitter">
+    	<i class="fab fa-twitter"></i>
+    </a>
+    
+
+    <a href="#" class="s-item gplus">
+    	
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a id="sm-close"  class="s-item print">
+       <i class="fas fa-arrow-left"></i>
+    </a>
+
+ </div>
+ <a id="sm-open"  class="s-item print sm-collapse">
+       <i class="fas fa-arrow-right"></i>
+    </a>
+    
+      <section>
+                     
+            <div class="cart-row flex-container">
+               
+            </div>
+            <div class="cart-items flex-container">
+            </div>
+            
+            <br>    
+  
+  <div class="controls text-center">
+    <a class="black-text" href="#" data-target="#carousel" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+    <a class="black-text" href="#" data-target="#carousel" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+  </div>
+
+  <!--Slides-->
+  <div id="carousel" class="carousel slide" data-ride="carousel">
+  
+   <div class="carousel-container carousel-inner no-padding " role="listbox">
+
+                  
+                <div class="carousel-item active">
+            <div class="row">
+                <div class="shop-item card rounded-0 img-thumbnail p-1">
+                    <h3 class="shop-item-title card-title text-center pinkbg">MARTHA'S</h3>
+                    
+                     <picture>
+      <source media="(min-width: 0px) and (max-width: 992px)"
+              srcset="images/tshirt-book-small.webp,
+                      images/tshirt-book-small.jpg">
+                      
+     <source media="(min-width: 933px) and (max-width: 2400px)"
+              srcset="images/tshirt-book.webp,
+                      images/tshirt-book.jpg">
+                      
+      <img class="shop-item-image img-fluid" src="images/tshirt-book.jpg" alt="I love books">
+    </picture>
+                                                     
+                    <div class="shop-item-details">
+                     <div class="card-footer text-center">
+                        <span class="shop-item-price priced">£12.99</span>
+                        <button class="btn btn-success shop-item-button" type="button">BUY NOW!</button>
+                    </div>
+                     </div>
+                    </div>
+                
+                 <div class="shop-item card rounded-0 img-thumbnail p-1">
+                    <h3 class="shop-item-title card-title text-center bluebg">BOB'S</h3>    
+                    
+                    
+                     <picture>
+      <source media="(min-width: 0px) and (max-width: 992px)"
+              srcset="images/tshirt-veg-small.webp,
+                      images/tshirt-veg-small.jpg">
+                      
+     <source media="(min-width: 933px) and (max-width: 2400px)"
+              srcset="images/tshirt-veg.webp,
+                      images/tshirt-veg.jpg">
+                      
+      <img class="shop-item-image img-fluid" src="images/tshirt-veg.jpg" alt="I love vegetables">
+    </picture>                                                                         
+                                      
+                    <div class="shop-item-details">
+                     <div class="card-footer text-center">
+                        <span class="shop-item-price priced">£12.99</span>
+                        <button class="btn btn-success shop-item-button" type="button">BUY NOW!</button>
+                    </div>
+                     </div>
+                    </div>                    
+                    
+                     <div class="shop-item card rounded-0 img-thumbnail p-1">
+                    <h3 class="shop-item-title card-title text-center pinkbg">BETTY'S</h3>  
+                    
+                     <picture>
+      <source media="(min-width: 0px) and (max-width: 992px)"
+              srcset="images/tshirt-cake-small.webp,
+                      images/tshirt-cake-small.jpg">
+                      
+     <source media="(min-width: 933px) and (max-width: 2400px)"
+              srcset="images/tshirt-cake.webp,
+                      images/tshirt-cake.jpg">
+                      
+      <img class="shop-item-image img-fluid" src="images/tshirt-cake.jpg" alt="I love cake">
+    </picture>
+                    
+                    <div class="shop-item-details">
+                     <div class="card-footer text-center">
+                        <span class="shop-item-price priced">£12.99</span>
+                        <button class="btn btn-success shop-item-button" type="button">BUY NOW!</button>
+                    </div>
+                     </div>
+                    </div>                    
+                    
+                      <div class="shop-item card rounded-0 img-thumbnail p-1">
+                    <h3 class="shop-item-title card-title text-center bluebg">MIKE'S</h3>    
+                    
+                       <picture>
+      <source media="(min-width: 0px) and (max-width: 992px)"
+              srcset="images/tshirt-dog-small.webp,
+                      images/tshirt-dog-small.jpg">
+                      
+     <source media="(min-width: 933px) and (max-width: 2400px)"
+              srcset="images/tshirt-dog.webp,
+                      images/tshirt-dog.jpg">
+                      
+      <img class="shop-item-image img-fluid" src="images/tshirt-dog.jpg" alt="I love dogs">
+    </picture>
+                                      
+                    <div class="shop-item-details">
+                     <div class="card-footer text-center">
+                        <span class="shop-item-price priced">£12.99</span>
+                        <button class="btn btn-success shop-item-button" type="button">BUY NOW!</button>
+                    </div>
+                     </div>
+                    </div>
+                     </div>
+                     </div>
+                  
+                     <div class="carousel-item">
+            <div class="row">
+                <div class="shop-item card rounded-0 img-thumbnail p-1">
+                    <h3 class="shop-item-title card-title text-center pinkbg">KAREN'S</h3>  
+                    
+                     <picture>
+      <source media="(min-width: 0px) and (max-width: 992px)"
+              srcset="images/cat-tshirt-small.webp,
+                      images/cat-tshirt-small.jpg">
+                      
+     <source media="(min-width: 933px) and (max-width: 2400px)"
+              srcset="images/cat-tshirt.webp,
+                      images/cat-tshirt.jpg">
+                      
+      <img class="shop-item-image img-fluid" src="images/cat-tshirt.jpg" alt="I love cats">
+    </picture>                                      
+                    <div class="shop-item-details">
+                     <div class="card-footer text-center">
+                        <span class="shop-item-price priced">£12.99</span>
+                        <button class="btn btn-success shop-item-button" type="button">BUY NOW!</button>
+                    </div>
+                     </div>
+                    </div>
+                
+                 <div class="shop-item card rounded-0 img-thumbnail p-1">
+                    <h3 class="shop-item-title card-title text-center bluebg">RAY'S</h3> 
+                    
+                     <picture>
+      <source media="(min-width: 0px) and (max-width: 992px)"
+              srcset="images/hedgehog-tshirt-small.webp,
+                      images/hedgehog-tshirt-small.jpg">
+                      
+     <source media="(min-width: 933px) and (max-width: 2400px)"
+              srcset="images/hedgehog-tshirt.webp,
+                      images/hedgehog-tshirt.jpg">
+                      
+      <img class="shop-item-image img-fluid" src="images/hedgehog-tshirt.jpg" alt="I love hedgehogs">
+    </picture>
+                                              
+                    <div class="shop-item-details">
+                     <div class="card-footer text-center">
+                        <span class="shop-item-price priced">£12.99</span>
+                        <button class="btn btn-success shop-item-button" type="button">BUY NOW!</button>
+                    </div>
+                     </div>
+                    </div>                    
+                    
+                     <div class="shop-item card rounded-0 img-thumbnail p-1">
+                    <h3 class="shop-item-title card-title text-center pinkbg">JANE'S</h3>   
+                    
+                      <picture>
+      <source media="(min-width: 0px) and (max-width: 992px)"
+              srcset="images/dolphin-tshirt-small.webp,
+                      images/dolphin-tshirt-small.jpg">
+                      
+     <source media="(min-width: 933px) and (max-width: 2400px)"
+              srcset="images/dolphin-tshirt.webp,
+                      images/dolphin-tshirt.jpg">
+                      
+      <img class="shop-item-image img-fluid" src="images/dolphin-tshirt.jpg" alt="I love dolphins">
+    </picture>
+                                                                        
+                    <div class="shop-item-details">
+                     <div class="card-footer text-center">
+                        <span class="shop-item-price priced">£12.99</span>
+                        <button class="btn btn-success shop-item-button" type="button">BUY NOW!</button>
+                    </div>
+                     </div>
+                    </div>                    
+                    
+                      <div class="shop-item card rounded-0 img-thumbnail p-1">
+                    <h3 class="shop-item-title card-title text-center bluebg">JEFF'S</h3>                
+                    
+                    <picture>
+        			<source media="(min-width: 0px) and (max-width: 992px)"
+              			srcset="images/golf-tshirt-small.webp,
+                      images/golf-tshirt-small.jpg">                      
+     				<source media="(min-width: 933px) and (max-width: 2400px)"
+              			srcset="images/golf-tshirt.webp,
+                      images/golf-tshirt.jpg">                      
+     			 <img class="shop-item-image img-fluid" src="images/golf-tshirt.jpg" alt="I love golf">
+    				</picture>
+                                         
+                    <div class="shop-item-details">
+                     <div class="card-footer text-center">
+                        <span class="shop-item-price priced">£12.99</span>
+                        <button class="btn btn-success shop-item-button" type="button">BUY NOW!</button>
+                    </div>
+                     </div>
+                    </div>
+                     </div>
+                     </div>
+                    </div>
+                   </div>                    
+         
+        </section>
+        <br><br> 
+     
+     <section>
+      <div class="container stars-wrapper">
+        <div class="row d-flex flex-wrap justify-content-center">     
+     
+     <div class="card card-w col-md m-2">
+ <img class="stars" src="images/stars.png" alt="stars"> Review
+  <div class="card-body">
+  <h4 class="card-title">Would highly recommend</h4>
+       <p class="card-text">
+ Fantastic print quality, fast delivery, would recommend to anyone.
+    </p>    
+  </div>
+   <p class="card-footer lead">Jeff Brown<span class="times text-right">5 hours ago</span></p>
+</div>
+     
+     <div class="card card-w col-md m-2">
+ <img class="stars" src="images/stars.png" alt="stars"> Review
+  <div class="card-body">
+  <h4 class="card-title"> T-Shirts to the Max is a great service</h4>
+       <p class="card-text">
+ Great service, and a joy to do business with.
+  Many thanks!
+    </p> 
+   
+   </div>
+   <p class="card-footer lead">Ray Breen <span class="times text-right">2 days ago</span></p>
+</div>
+     </div>
+     </div>
+     
+     </section>     
+         
+      <div class="container">
+        <div class="row d-flex flex-wrap justify-content-center">        
+     
+     <div class="toast show col-md m-2">
+  <div class="toast-header"><div class="rocket text-center">
+  <i class="fas fa-rocket"></i>  <strong class="mr-auto">ON TIME GUARANTEE</strong>    
+    
+  </div>
+  </div>
+  <div class="toast-body">  
+   <div class="lead">Order dispatched on time or we will give you a £10 voucher</div>
+  </div>
+</div>
+
+ <div class="toast show col-md m-2">
+  <div class="toast-header"><div class="rocket text-center">
+    <i class="fas fa-medal"></i> <strong class="mr-auto">SATISFACTION GUARANTEE</strong>    
+ 
+  </div>
+  </div>
+  <div class="toast-body">  
+   <div class="lead">If you are not 100% satisfied we will issue you a full refund</div>
+  </div>
+</div>
+
+ <div class="toast show col-md m-2">
+  <div class="toast-header"><div class="rocket text-center">
+   <i class="fas fa-shield-virus"></i> <strong class="mr-auto">LIFETIME PRINT GUARANTEE</strong>    
+    
+  </div>
+  </div>
+  <div class="toast-body">  
+   <div class="lead">The print will last the lifetime of the garment or your money back</div>
+  </div>
+</div>
+     
+       </div>
+</div>
+         
+     <div class="footer">
+  <ul>
+       
+     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+     <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+    
+     </ul>
+</div>       
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+ <script src="js/shopping-cart.js" async></script>
+ <script src="js/script.js"></script>
+ 
+  </body>
+</html>
